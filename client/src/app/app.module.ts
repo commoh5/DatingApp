@@ -49,7 +49,7 @@ import { TestInputComponent } from './_forms/test-input/test-input.component';
     BrowserAnimationsModule,
     FormsModule,
     SharedModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
